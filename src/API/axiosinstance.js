@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const ApiInstance = axios.create({
-    baseURL: "http://127.0.0.1:3030/saylani",
+    baseURL: "https://benificary-system-backend.vercel.app/saylani",
     headers: {
       "Content-Type": "application/json",
     },
