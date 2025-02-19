@@ -61,7 +61,7 @@ const Header = ({ type }) => {
             >
               SIGNUP
             </button>
-            <button className="w-48 h-10 bg-[#8DC63F] text-xl font-normal text-white rounded-xl hover:scale-110 duration-200 cursor-pointer">
+            <button  onClick={() => navigate("/saylani/signin")} className="w-48 h-10 bg-[#8DC63F] text-xl font-normal text-white rounded-xl hover:scale-110 duration-200 cursor-pointer">
               SIGNIN
             </button>
           </>
